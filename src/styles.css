@@ -1,0 +1,32 @@
+
+.week-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.day-header {
+  font-weight: bold;
+  text-align: center;
+  background-color: #eee;
+  padding: 5px;
+}
+
+.employee {
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.task {
+  background: #d6f0ff;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 4px;
+}
